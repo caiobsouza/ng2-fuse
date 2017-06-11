@@ -19,7 +19,7 @@ import { NgFuseModule } from 'ng2-fuse';
 
 Use NgFuse Pipe with *ngFor
 ```
-<li *ngFor="let item of (collection | ng-fuse:queryString:{keys: ['name', 'email']})"></li>
+<li *ngFor="let item of (collection | ngFuse:queryString:{keys: ['name', 'email']})"></li>
 ```
 
 ### Options

@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { NgFuseOptions, NgFuseService } from './ngfuse.service'
 
-@Pipe({ name: "ngfuse" })
+@Pipe({ name: "ngFuse" })
 export class NgFusePipe implements PipeTransform {
 
     constructor(private fuseService: NgFuseService) { }
