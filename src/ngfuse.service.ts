@@ -24,6 +24,7 @@ export class NgFuseService {
         if (searchString && searchString.length >= this.searchOptions.minSearchStringLenght) {
             const fuse = new Fuse(collection, this.searchOptions);
             results = fuse.search(searchString);
+            return results;
         } else {
             return collection;
         }
