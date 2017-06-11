@@ -1,0 +1,31 @@
+{
+  "name": "ng2-fuse",
+  "version": "1.0.0",
+  "description": "angular 2 pipe for search using fuse.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiobsouza/ng2-fuse.git"
+  },
+  "keywords": [
+    "angular 2",
+    "fuse.js",
+    "pipe",
+    "search"
+  ],
+  "author": "caiobsouza <caiobsouza@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiobsouza/ng2-fuse/issues"
+  },
+  "homepage": "https://github.com/caiobsouza/ng2-fuse#readme",
+  "dependencies": {
+    "fuse.js": "^3.0.4"
+  },
+  "peerDependencies": {
+    "@angular/core": "^2.0.0"
+  }
+}
