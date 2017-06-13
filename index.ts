@@ -9,9 +9,11 @@ import { NgFusePipe } from './src/ngfuse.pipe';
 	declarations: [
 		NgFusePipe
 	],
-	exports: [
+	imports: [
 		CommonModule,
-		FormsModule,
+		FormsModule
+	],
+	exports: [
 		NgFusePipe
 	],
 	providers: [NgFuseService],
