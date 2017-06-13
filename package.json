@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/caiobsouza/ng2-fuse#readme",
   "dependencies": {
+    "@angular/common": "^4.2.2",
+    "@angular/core": "^4.2.2",
+    "@angular/forms": "^4.2.2",
     "fuse.js": "^3.0.4"
   },
   "peerDependencies": {
