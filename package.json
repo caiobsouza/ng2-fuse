@@ -1,6 +1,6 @@
 {
   "name": "ng2-fuse",
-  "version": "1.0.0",
+  "version": "0.0.9",
   "description": "angular 2 pipe for search using fuse.js",
   "main": "index.js",
   "scripts": {
