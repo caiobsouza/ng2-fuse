@@ -5,7 +5,7 @@ import * as Fuse from 'fuse.js';
 export class NgFuseService {
     defaults: NgFuseOptions = {
         shouldSort: true,
-        threshold: 0.6,
+        threshold: 0.4,
         location: 0,
         distance: 100,
         maxPatternLength: 32,
@@ -13,7 +13,7 @@ export class NgFuseService {
         minSearchStringLenght: 1
     }
 
-    searchOptions: NgFuseOptions;
+    searchOptions: NgFuseOptions = this.defaults;
 
     constructor() { };
 
