@@ -1,5 +1,4 @@
 # Angular 2 Fuse (aka Ng2Fuse)
-**Work in progress!**
 
 ## Installation
 > npm install ng2-fuse
