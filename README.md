@@ -1,10 +1,11 @@
-# Angular 2 Fuse (aka Ng2Fuse)
+# ng2-fuse (NgFuse)
+**NgFuse provides a angular 2 pipe for fuzzy-searching.** <br>This package is powered by the **awesome** and lightweight library [Fuse.js](http://fusejs.io/).  
 
 ## Installation
 > npm install ng2-fuse
 
 ## Usage
- Import NgFuseMode
+ Import NgFuseMode in ```app.module.ts```
 ```
 import { NgFuseModule } from 'ng2-fuse';
 @NgModule({
@@ -17,18 +18,18 @@ import { NgFuseModule } from 'ng2-fuse';
 })
 ```
 
-Use NgFuse Pipe with *ngFor
+Using NgFuse within ```*ngFor``` directive
 ```
 <li *ngFor="let item of (collection | ngFuse:queryString:{keys: ['name', 'email']})"></li>
 ```
 
 ### Options
-NgFuse uses fusejs defaults as base. For more details, see [Fuse.js Official Documentation](http://fusejs.io/)
+NgFuse uses [Fuse.js](http://fusejs.io/) default options. For more details, see [Fuse.js Official Documentation](http://fusejs.io/)
 
 ```
 defaults: NgFuseOptions = {
         shouldSort: true,
-        threshold: 0.6,
+        threshold: 0.3,
         location: 0,
         distance: 100,
         maxPatternLength: 32,
