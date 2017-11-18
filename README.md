@@ -1,5 +1,6 @@
 # ng2-fuse (NgFuse)
 [![npm version](https://badge.fury.io/js/ng2-fuse.svg)](https://badge.fury.io/js/ng2-fuse)
+![npm downloads](https://img.shields.io/npm/dt/ng2-fuse.svg)
 
 **NgFuse provides an Angular 2 pipe for fuzzy-searching.** <br>This package is powered by the **awesome** and lightweight library [Fuse.js](http://fusejs.io/).  
 
